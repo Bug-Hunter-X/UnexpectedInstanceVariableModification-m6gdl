@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in Ruby related to how instance variables are handled when accessed via methods.  The `value` method simply returns the `@value` instance variable; assigning to it does *not* modify `@value`.  The solution shows the correct way to modify an instance variable.
